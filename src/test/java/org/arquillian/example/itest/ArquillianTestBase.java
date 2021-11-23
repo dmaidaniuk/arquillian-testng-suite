@@ -75,7 +75,7 @@ public abstract class ArquillianTestBase extends Arquillian {
      * Override this method to execute code before every test method
      * (outside of container, i.e. injections are not available here)
      */
-    protected void beforeTestMethodOutOfContainer() throws Exception {
+    protected void beforeTestMethodOutOfContainer() {
     }
 
     /**
@@ -104,7 +104,7 @@ public abstract class ArquillianTestBase extends Arquillian {
      * Override this method to execute code after every test method
      * (outside of container, i.e. injections are not available here)
      */
-    protected void afterTestMethodOutOfContainer() throws Exception {
+    protected void afterTestMethodOutOfContainer() {
     }
 
     /**

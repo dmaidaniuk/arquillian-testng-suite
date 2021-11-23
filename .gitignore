@@ -1,2 +1,14 @@
 #Project
 target
+.classpath
+.project
+.settings
+.metadata
+.idea
+*~
+*.iml
+*.swp
+nb-configuration.xml
+.DS_Store
+
+.vscode/
